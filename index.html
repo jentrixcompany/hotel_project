@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenda Hotel | Authentic Kenyan Cuisine & Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>TENDA HOTEL</h1>
+                    <span>Authentic Kenyan Cuisine</span>
+                </div>
+            </div>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="cart-icon" id="cartIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </div>
+                <div class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-elements" id="floatingElements"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Savor the Authentic Taste of Kenya</h1>
+                <p>At Tenda Hotel, we serve traditional Kenyan dishes made with the freshest local ingredients. Experience the rich flavors of our culture in every bite.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn">View Our Menu</a>
+                    <a href="#order" class="btn btn-gold">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+            <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Story</h2>
+                    <p>Discover the journey of Tenda Hotel - from humble beginnings to becoming Nairobi's favorite local eatery</p>
+                    <div class="title-divider"></div>
+                </div>
+
+                <div class="about-container">
+                    <div class="about-image slide-up">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Tenda Hotel Interior" id="aboutMainImage">
+                        </div>
+                        <div class="image-thumbnails">
+                            <div class="thumbnail active" data-image="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Restaurant Interior">
+                            </div>
+                            <div class="thumbnail" data-image="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                                <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Dining Area">
+                            </div>
+                            <div class="thumbnail" data-image="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                                <img src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Kitchen Staff">
+                            </div>
+                            <div class="thumbnail" data-image="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Chef Preparing Food">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content slide-up" style="animation-delay: 0.2s;">
+                        <div class="about-tabs">
+                            <button class="tab-btn active" data-tab="story">Our Story</button>
+                            <button class="tab-btn" data-tab="mission">Our Mission</button>
+                            <button class="tab-btn" data-tab="values">Our Values</button>
+                            <button class="tab-btn" data-tab="team">Our Team</button>
+                        </div>
+
+                        <div class="tab-content active" id="story">
+                            <h3>From Humble Beginnings</h3>
+                            <p>Tenda Hotel started in 2008 as a small family-run eatery in Nairobi's bustling CBD. Founded by Mama Njeri and her three sons, we began with just four tables and a simple menu of traditional Kenyan dishes.</p>
+                            <p>What started as a way to share our family recipes with the local community quickly grew into a beloved neighborhood spot. Word spread about our authentic flavors, generous portions, and welcoming atmosphere.</p>
+                            <p>Today, we serve over 500 customers daily and have expanded to include delivery services across Nairobi. But despite our growth, we remain committed to our roots - serving homemade Kenyan food with the same love and care as when we started.</p>
+
+                            <div class="milestones">
+                                <div class="milestone">
+                                    <div class="milestone-year">2008</div>
+                                    <div class="milestone-text">Tenda Hotel opens with 4 tables</div>
+                                </div>
+                                <div class="milestone">
+                                    <div class="milestone-year">2012</div>
+                                    <div class="milestone-text">Expanded to full restaurant</div>
+                                </div>
+                                <div class="milestone">
+                                    <div class="milestone-year">2015</div>
+                                    <div class="milestone-text">Started delivery service</div>
+                                </div>
+                                <div class="milestone">
+                                    <div class="milestone-year">2023</div>
+                                    <div class="milestone-text">Served 1 millionth customer</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="mission">
+                            <h3>Our Mission & Vision</h3>
+                            <p><strong>Mission:</strong> To provide authentic, delicious Kenyan cuisine in a welcoming environment, using fresh local ingredients while supporting our community.</p>
+                            <p><strong>Vision:</strong> To be Nairobi's most trusted local eatery, known for quality food, exceptional service, and community engagement.</p>
+
+                            <div class="mission-points">
+                                <div class="mission-point">
+                                    <div class="mission-icon">
+                                        <i class="fas fa-seedling"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Fresh Ingredients</h4>
+                                        <p>We source 90% of our ingredients from local Kenyan farmers and markets.</p>
+                                    </div>
+                                </div>
+                                <div class="mission-point">
+                                    <div class="mission-icon">
+                                        <i class="fas fa-hands-helping"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Community Support</h4>
+                                        <p>We provide employment and training opportunities for local youth.</p>
+                                    </div>
+                                </div>
+                                <div class="mission-point">
+                                    <div class="mission-icon">
+                                        <i class="fas fa-utensils"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Authentic Recipes</h4>
+                                        <p>Our dishes follow traditional recipes passed down through generations.</p>
+                                    </div>
+                                </div>
+                                <div class="mission-point">
+                                    <div class="mission-icon">
+                                        <i class="fas fa-leaf"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Sustainability</h4>
+                                        <p>We minimize waste and use eco-friendly packaging for deliveries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="values">
+                            <h3>Our Core Values</h3>
+                            <p>These principles guide everything we do at Tenda Hotel:</p>
+
+                            <div class="values-grid">
+                                <div class="value-card">
+                                    <div class="value-icon">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <h4>Quality</h4>
+                                    <p>We never compromise on the quality of our ingredients or preparation.</p>
+                                </div>
+                                <div class="value-card">
+                                    <div class="value-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <h4>Community</h4>
+                                    <p>We believe in giving back and supporting our local community.</p>
+                                </div>
+                                <div class="value-card">
+                                    <div class="value-icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <h4>Integrity</h4>
+                                    <p>We're honest in our dealings and transparent with our customers.</p>
+                                </div>
+                                <div class="value-card">
+                                    <div class="value-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Excellence</h4>
+                                    <p>We strive for excellence in every dish we serve and every interaction.</p>
+                                </div>
+                            </div>
+
+                            <div class="commitment">
+                                <h4>Our Commitment to You:</h4>
+                                <p>Every meal at Tenda Hotel is prepared with care, using fresh ingredients, and served with the warmth of Kenyan hospitality. We stand behind the quality of our food and the sincerity of our service.</p>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="team">
+                            <h3>Meet Our Team</h3>
+                            <p>Behind every great meal is a dedicated team passionate about Kenyan cuisine:</p>
+
+                            <div class="team-grid">
+                                <div class="team-member">
+                                    <div class="member-image">
+                                        <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mama Njeri">
+                                    </div>
+                                    <div class="member-info">
+                                        <h4>Mama Njeri</h4>
+                                        <p class="member-role">Founder & Head Chef</p>
+                                        <p class="member-bio">With over 40 years of cooking experience, Mama Njeri creates all our traditional recipes.</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-image">
+                                        <img src="https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="John Kamau">
+                                    </div>
+                                    <div class="member-info">
+                                        <h4>John Kamau</h4>
+                                        <p class="member-role">Restaurant Manager</p>
+                                        <p class="member-bio">John ensures every customer has an exceptional experience at Tenda Hotel.</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-image">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Sarah Achieng">
+                                    </div>
+                                    <div class="member-info">
+                                        <h4>Sarah Achieng</h4>
+                                        <p class="member-role">Head of Delivery</p>
+                                        <p class="member-bio">Sarah manages our delivery team to ensure your food arrives hot and fresh.</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-image">
+                                        <img src="https://images.unsplash.com/photo-1566554273541-37a9ca6b91a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="David Omondi">
+                                    </div>
+                                    <div class="member-info">
+                                        <h4>David Omondi</h4>
+                                        <p class="member-role">Sous Chef</p>
+                                        <p class="member-bio">David brings modern techniques to our traditional dishes while preserving authentic flavors.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-note">
+                                <p>Our team of 25 dedicated staff members work together to bring you the best of Kenyan cuisine every day.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-actions">
+                            <a href="#contact" class="btn">Visit Us Today</a>
+                            <a href="#menu" class="btn btn-outline">View Our Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item slide-up">
+                    <div class="stat-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-text">Delicious Dishes</div>
+                </div>
+                <div class="stat-item slide-up" style="animation-delay: 0.1s;">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-text">Years of Service</div>
+                </div>
+                <div class="stat-item slide-up" style="animation-delay: 0.2s;">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-text">Happy Customers</div>
+                </div>
+                <div class="stat-item slide-up" style="animation-delay: 0.3s;">
+                    <div class="stat-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="stat-number">30min</div>
+                    <div class="stat-text">Avg Delivery Time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Delicious Menu</h2>
+                <p>From traditional Kenyan staples to contemporary favorites, our menu offers something for everyone</p>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All Dishes</button>
+                <button class="category-btn" data-category="breakfast">Breakfast</button>
+                <button class="category-btn" data-category="lunch">Lunch</button>
+                <button class="category-btn" data-category="dinner">Dinner</button>
+                <button class="category-btn" data-category="drinks">Drinks</button>
+            </div>
+
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Place Your Order</h2>
+                <p>Fill out the form below and we'll prepare your food fresh</p>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="order-container">
+                <div class="order-form-container slide-up">
+                    <form class="order-form" id="orderForm">
+                        <h3>Order Details</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Kamau">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="0712 345 678">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Delivery Address *</label>
+                            <textarea id="address" name="address" rows="3" required placeholder="Enter your full delivery address"></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="delivery-time">Delivery Time *</label>
+                                <select id="delivery-time" name="delivery-time" required>
+                                    <option value="">Select preferred time</option>
+                                    <option value="asap">As Soon As Possible</option>
+                                    <option value="30min">Within 30 minutes</option>
+                                    <option value="1hour">Within 1 hour</option>
+                                    <option value="2hours">Within 2 hours</option>
+                                    <option value="specific">Specific Time (Specify in notes)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment">Payment Method *</label>
+                                <select id="payment" name="payment" required>
+                                    <option value="">Select payment method</option>
+                                    <option value="cash">Cash on Delivery</option>
+                                    <option value="mpesa">M-Pesa</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notes">Special Instructions</label>
+                            <textarea id="notes" name="notes" rows="3" placeholder="Any special requests or dietary restrictions?"></textarea>
+                        </div>
+
+                        <div class="order-summary">
+                            <h4>Order Summary</h4>
+                            <div class="summary-items" id="orderSummary">
+                                <p class="empty-cart-message">Your cart is empty. Please add items from the menu.</p>
+                            </div>
+                            <div class="summary-total">
+                                <span>Total:</span>
+                                <span id="orderTotal">Ksh 0.00</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%; margin-top: 30px; padding: 18px;">Place Order Now</button>
+                    </form>
+                </div>
+
+                <div class="order-info slide-up" style="animation-delay: 0.2s;">
+                    <h3>Why Order From Tenda Hotel?</h3>
+                    <ul style="list-style: none; margin-top: 30px;">
+                        <li style="margin-bottom: 25px; display: flex; align-items: flex-start; gap: 15px;">
+                            <div style="background: linear-gradient(135deg, var(--crimson) 0%, var(--crimson-dark) 100%); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: white; margin-bottom: 5px;">Fresh Ingredients</h4>
+                                <p style="color: var(--medium-text);">We source our ingredients from local farmers daily to ensure maximum freshness.</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 25px; display: flex; align-items: flex-start; gap: 15px;">
+                            <div style="background: linear-gradient(135deg, var(--crimson) 0%, var(--crimson-dark) 100%); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: white; margin-bottom: 5px;">Fast Delivery</h4>
+                                <p style="color: var(--medium-text);">We guarantee delivery within 30-45 minutes in most areas of the city.</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 25px; display: flex; align-items: flex-start; gap: 15px;">
+                            <div style="background: linear-gradient(135deg, var(--crimson) 0%, var(--crimson-dark) 100%); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: white; margin-bottom: 5px;">Authentic Recipes</h4>
+                                <p style="color: var(--medium-text);">Our dishes are prepared following traditional Kenyan recipes passed down for generations.</p>
+                            </div>
+                        </li>
+                        <li style="margin-bottom: 25px; display: flex; align-items: flex-start; gap: 15px;">
+                            <div style="background: linear-gradient(135deg, var(--crimson) 0%, var(--crimson-dark) 100%); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: white; margin-bottom: 5px;">Affordable Prices</h4>
+                                <p style="color: var(--medium-text);">We believe good food should be accessible to everyone, with prices starting from Ksh 150.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Visit us or get in touch for reservations and inquiries</p>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info slide-up">
+                    <h3>Get In Touch</h3>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>123 Kimathi Street, Nairobi CBD, Kenya</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+254 712 345 678</p>
+                            <p>+254 734 567 890</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>info@tendahotel.co.ke</p>
+                            <p>orders@tendahotel.co.ke</p>
+                        </div>
+                    </div>
+
+                    <div class="opening-hours">
+                        <h4 style="font-size: 24px; margin-bottom: 20px; color: white;">Opening Hours</h4>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Monday - Thursday</td>
+                                <td>7:00 AM - 10:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday - Saturday</td>
+                                <td>7:00 AM - 11:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>8:00 AM - 10:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Public Holidays</td>
+                                <td>9:00 AM - 9:00 PM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="map-container slide-up" style="animation-delay: 0.2s;">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>Find Us Here</h4>
+                        <p>We're located in the heart of Nairobi CBD, easily accessible from all major roads and public transport routes.</p>
+                        <div style="margin-top: 30px;">
+                            <a href="https://maps.google.com/?q=123+Kimathi+Street+Nairobi" target="_blank" class="btn" style="padding: 12px 30px;">Open in Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Tenda Hotel</h3>
+                    <p style="color: var(--medium-text); margin-bottom: 25px;">Serving authentic Kenyan cuisine with love since 2008. Experience the taste of home with every meal.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+                        <li><a href="#order"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Our Menu</h3>
+                    <ul class="footer-links">
+                        <li><a href="#menu" data-category="breakfast"><i class="fas fa-chevron-right"></i> Breakfast</a></li>
+                        <li><a href="#menu" data-category="lunch"><i class="fas fa-chevron-right"></i> Lunch Specials</a></li>
+                        <li><a href="#menu" data-category="dinner"><i class="fas fa-chevron-right"></i> Dinner</a></li>
+                        <li><a href="#menu" data-category="drinks"><i class="fas fa-chevron-right"></i> Drinks & Beverages</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i> All Dishes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new dishes and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 Tenda Hotel. All rights reserved. | Designed for food lovers</p>
+                <p style="margin-top: 10px;"><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Order Cart</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-body" id="cartBody">
+                <!-- Cart items will be added here by JavaScript -->
+                <p class="empty-cart-message">Your cart is empty. Please add items from the menu.</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">Ksh 0.00</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="btn btn-outline" id="continueShopping">Continue Shopping</button>
+                    <button class="btn" id="proceedCheckout">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Success Modal -->
+    <div class="order-success-modal" id="orderSuccessModal">
+        <div class="order-success-content">
+            <div class="order-success-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <h3>Order Confirmed!</h3>
+            <p>Thank you for your order. We have received your request and will begin preparing your food shortly.</p>
+            <div class="order-id" id="orderIdDisplay">TENDA-<span id="orderNumber">0000</span></div>
+            <p>We will contact you soon with delivery details. Keep your phone nearby.</p>
+            <div style="display: flex; gap: 15px; margin-top: 40px;">
+                <button class="btn" id="newOrderBtn">Place New Order</button>
+                <button class="btn btn-outline" id="closeSuccessBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript in a "js" folder -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
