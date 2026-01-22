@@ -167,7 +167,7 @@
                 category: "breakfast",
                 rating: 4.8,
                 popular: true,
-                image: "../images/breakfast.png",
+                image: "images/breakfast.png",
                 prepTime: "15-20 min"
             },
             {
@@ -178,7 +178,7 @@
                 category: "breakfast",
                 rating: 4.7,
                 popular: true,
-                image: "../images/chapati.png",
+                image: "images/chapati.png",
                 prepTime: "10-15 min"
             },
             {
@@ -189,7 +189,7 @@
                 category: "lunch",
                 rating: 4.9,
                 popular: true,
-                image: "../images/ugali.png",
+                image: "images/ugali.png",
                 prepTime: "20-25 min"
             },
             {
@@ -200,7 +200,7 @@
                 category: "lunch",
                 rating: 4.9,
                 popular: true,
-                image: "../images/nyama.png",
+                image: "images/nyama.png",
                 prepTime: "25-30 min"
             },
             {
@@ -211,7 +211,7 @@
                 category: "lunch",
                 rating: 4.8,
                 popular: false,
-                image: "../images/pilau.png",
+                image: "images/pilau.png",
                 prepTime: "20-25 min"
             },
             {
@@ -222,7 +222,7 @@
                 category: "dinner",
                 rating: 4.7,
                 popular: true,
-                image: "../images/fish.png",
+                image: "images/fish.png",
                 prepTime: "25-30 min"
             },
             {
@@ -233,7 +233,7 @@
                 category: "dinner",
                 rating: 4.6,
                 popular: false,
-                image: "../images/mukimo.png",
+                image: "images/mukimo.png",
                 prepTime: "20-25 min"
             },
             {
@@ -244,7 +244,7 @@
                 category: "dinner",
                 rating: 4.5,
                 popular: false,
-                image: "../images/githeri.jpeg",
+                image: "images/githeri.jpeg",
                 prepTime: "15-20 min"
             },
             {
@@ -255,7 +255,7 @@
                 category: "drinks",
                 rating: 4.8,
                 popular: true,
-                image: "../images/passion.jpeg",
+                image: "images/passion.jpeg",
                 prepTime: "5 min"
             },
             {
@@ -266,7 +266,7 @@
                 category: "drinks",
                 rating: 4.9,
                 popular: true,
-                image: "../images/tea.jpeg",
+                image: "images/tea.jpeg",
                 prepTime: "5-7 min"
             },
             {
@@ -277,7 +277,7 @@
                 category: "drinks",
                 rating: 4.7,
                 popular: false,
-                image: "../images/mango.jpeg",
+                image: "images/mango.jpeg",
                 prepTime: "5 min"
             },
             {
@@ -288,7 +288,7 @@
                 category: "drinks",
                 rating: 4.8,
                 popular: false,
-                image: "../images/coffee.jpeg",
+                image: "images/coffee.jpeg",
                 prepTime: "5 min"
             }
         ];
